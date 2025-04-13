@@ -196,6 +196,16 @@ CDAP IRC Channel: [#cdap on irc.freenode.net](http://webchat.freenode.net?channe
 ### Slack Team
 
 CDAP Users on Slack: [cdap-users team](https://cdap-users.herokuapp.com)
+### New Features (Custom Types)
+
+**Supported Units**:
+- ByteSize: `10KB`, `1.5MB`, `2GB`
+- TimeDuration: `100ms`, `2s`, `3minutes`
+
+**New Directive: `aggregate-stats`**
+
+```wrangler
+aggregate-stats :data_size :time_duration total_size_mb total_time_sec
 
 
 ## License and Trademarks
